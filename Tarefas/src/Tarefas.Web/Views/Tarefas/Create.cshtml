@@ -1,3 +1,7 @@
-<p>
-    pagina em branco
-</p>
+@model Tarefas.Web.Models.TarefaViewModel
+<form asp-action="Create">
+    <input asp-for= "Titulo"/>
+    <input asp-for= "Descricao"/>
+
+    <input type = "submit"/>
+</form>
